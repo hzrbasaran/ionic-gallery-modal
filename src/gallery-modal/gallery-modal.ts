@@ -13,7 +13,7 @@ export class GalleryModal implements OnInit {
   @ViewChild('slider') slider: Slides;
 
   private initialImage: any;
-
+  public watermark : string = "";
   public photos: Photo[];
   private sliderDisabled: boolean = false;
   private initialSlide: number = 0;
@@ -43,7 +43,7 @@ export class GalleryModal implements OnInit {
     this.photos = params.get('photos') || [];
     this.closeIcon = params.get('closeIcon') || 'arrow-back';
     this.initialSlide = params.get('initialSlide') || 0;
-
+    this.watermark = params.get('watermark') || '';
     this.initialImage = this.photos[this.initialSlide] || {};
   }
 

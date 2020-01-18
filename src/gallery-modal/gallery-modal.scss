@@ -2,7 +2,7 @@
   .gallery-modal {
     position: relative;
     overflow: hidden;
-
+    background-color: #fff!important;
     .close-button {
       position: absolute;
       top: 10px;
@@ -38,6 +38,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+    }
+    
+    .watermark { 
+      background: transparent!important;
+      z-index: 9;
+      pointer-events: none;
     }
   }
 }

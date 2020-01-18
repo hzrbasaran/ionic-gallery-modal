@@ -1,7 +1,7 @@
 {
   "name": "ionic-gallery-modal",
   "version": "0.2.7",
-  "description": "Ionic Gallery Modal (to preview photos)",
+  "description": "Ionic Gallery Modal With Watermark",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -21,8 +21,8 @@
     "gallery modal"
   ],
   "author": {
-    "name": "Ciprian Mocanu",
-    "email": "ciprian@mbe.ro"
+    "name": "Hızır Başaran",
+    "email": "hzrbasaran@hotmail.com"
   },
   "license": "MIT",
   "dependencies": {
@@ -72,6 +72,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikini/ionic-gallery-modal.git"
+    "url": "https://github.com/hzrbasaran/ionic-gallery-modal.git"
   }
 }

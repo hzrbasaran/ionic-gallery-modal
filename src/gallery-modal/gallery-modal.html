@@ -8,6 +8,10 @@
     <ion-icon name="{{ closeIcon }}"></ion-icon>
   </button>
 
+  <div class="watermark">
+    <p class="watermark-text">{{watermark}}</p>
+  </div>
+
   <!-- Initial image while modal is animating -->
   <div class="image-on-top" [hidden]="sliderLoaded">
     <zoomable-image
